@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+Planner
+A React-based task management application that allows users to create, organize, and track tasks. Users can assign categories and due dates to tasks, filter tasks by category, and view tasks in a calendar. The app stores tasks locally using `localStorage` for persistent task management.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone down this repository. You will need node and npm installed globally on your machine.
 
-## Available Scripts
+Installation:
+npm install
+To Run Test Suite:
+npm test
+To Start Server:
+npm start
+To Visit App:
+http://localhost:3000/
 
-In the project directory, you can run:
+Reflection
+This project started as a side project to deepen my understanding of React, particularly with state management using hooks (useState, useEffect) and interacting with localStorage for data persistence. The goal was to build a simple, user-friendly task manager that supports both task categorization and a calendar view for better task tracking.
 
-### `npm start`
+Challenges
+One of the main challenges was integrating the calendar view (react-calendar) with the task list and ensuring tasks are displayed accurately based on their due dates. Managing state across multiple components, especially when toggling task completion or filtering tasks by category, was another key learning experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tools Used
+React: The core of the application, allowing efficient UI updates based on the state of tasks.
+react-calendar: Integrated to provide a calendar-based view for users to see tasks due on specific dates.
+localStorage: Used to persist task data across sessions so that users don’t lose tasks when they refresh the page or close the browser.
+CSS: For responsive UI styling and ensuring a clean, user-friendly interface.
