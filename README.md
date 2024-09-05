@@ -1,4 +1,4 @@
-Planner
+Planner:
 A React-based task management application that allows users to create, organize, and track tasks. Users can assign categories and due dates to tasks, filter tasks by category, and view tasks in a calendar. The app stores tasks locally using `localStorage` for persistent task management.
 
 Clone down this repository. You will need node and npm installed globally on your machine.
